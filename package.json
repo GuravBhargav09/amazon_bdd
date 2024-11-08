@@ -1,0 +1,25 @@
+{
+  "name": "samplebdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config=config/cucumber.js test || true",
+    "posttest": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/messages": "^27.0.0",
+    "@types/cucumber": "^7.0.3",
+    "@types/node": "^22.8.7",
+    "allure-cucumberjs": "^3.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
